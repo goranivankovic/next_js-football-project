@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Roboto+Mono:wght@100&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:ital,wght@1,100&family=Roboto+Mono:wght@100&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@430&display=swap');
+.home{
+    height: 320vh;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+ 
+
+
+}
+
+
+
+
+
+.stickyLeft{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 320vh;
+    width: 12.5%;
+    /* background-color: rgb(248, 248, 248); */
+    z-index: -1;
+    
+}
+.stickyRight{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 320vh;
+    width: 12.5%;
+    /* background-color: rgb(248, 248, 248); */
+    z-index: -1;
+  
+}
+
+
+
+
+.home_main{
+    
+    position: absolute;
+    top: 3.2%;
+    left: 12.5%;
+    height: 100vh;
+    width: 75%;
+
+
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+
+ 
+   
+
+}
+
+.home_second{
+    
+    position: absolute;
+    top: 120vh;
+    left: 12.5%;
+    height: 100vh;
+    width: 75%;
+
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+
+
+ 
+   
+
+}
+
+
+.home_three{
+    
+    position: absolute;
+    top: 210vh;
+    left: 12.5%;
+    height: 100vh;
+    width: 75%;
+
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+
+
+ 
+   
+
+}
+
+
+@media screen and (max-width:830px) {
+
+    
+.home_three{
+    
+    position: absolute;
+    top: 230vh;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+
+
+ 
+   
+
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    .stickyRight{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        height: 320vh;
+        width: 0%;
+        background-color: rgb(248, 248, 248);
+        z-index: -1;
+      
+    }
+
+
+    .stickyLeft{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 320vh;
+        width: 0%;
+        background-color: rgb(248, 248, 248);
+        z-index: -1;
+        
+    }
+
+    
+.home_main{
+    
+    position: absolute;
+    top: 3.2%;
+    left: 0%;
+    height: 120vh;
+    width: 100%;
+
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+.home_second{
+    
+    position: absolute;
+    top: 140vh;
+    left: 0%;
+    height: 100vh;
+    width:100%;
+
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+
+
+ 
+   
+
+}
+
+
+.home_three{
+    
+    position: absolute;
+    top: 260vh;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+
+
+ 
+   
+
+}
+
+    
+
+
+
+
+}
+
+
+
+

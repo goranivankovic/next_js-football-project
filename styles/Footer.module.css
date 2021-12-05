@@ -1,0 +1,610 @@
+
+
+.main_div{
+
+    position: absolute;
+    top: 100vh;
+    bottom: 0%;
+    width: 100%;
+    height: 25vh;
+    background-color: #292b2c;
+    display: flex;
+   align-items: center;
+   cursor: pointer;
+  
+}
+
+@media screen and (max-width: 768px) {
+
+    
+.main_div{
+
+    position: absolute;
+    top: 140vh;
+    bottom: 0%;
+    width: 100%;
+    height: 25vh;
+    background-color: #292b2c;
+    display: flex;
+   align-items: center;
+   cursor: pointer;
+  
+}
+  
+  }
+
+
+  
+@media screen and (max-width: 600px) {
+
+    
+    .main_div{
+    
+        position: absolute;
+        top: 155vh;
+        bottom: 0%;
+        width: 100%;
+        height: 25vh;
+        background-color: #292b2c;
+        display: flex;
+       align-items: center;
+       cursor: pointer;
+      
+    }
+      
+      }
+
+
+
+
+      .develpoer_div{
+
+        position: absolute;
+        top: 270vh;
+        bottom: 0%;
+        width: 100%;
+        height: 25vh;
+        background-color: #292b2c;
+        display: flex;
+       align-items: center;
+       cursor: pointer;
+      
+
+
+      }
+
+
+        
+@media screen and (max-width: 768px) {
+
+  .develpoer_div{
+
+    position: absolute;
+    top: 290vh;
+    bottom: 0%;
+    width: 100%;
+    height: 25vh;
+    background-color: #292b2c;
+    display: flex;
+   align-items: center;
+   cursor: pointer;
+  
+
+
+  }
+    
+    }
+
+    @media screen and (max-width: 575px) {
+
+      .develpoer_div{
+    
+        position: absolute;
+        top: 420vh;
+        bottom: 0%;
+        width: 100%;
+        height: 25vh;
+        background-color: #292b2c;
+        display: flex;
+       align-items: center;
+       cursor: pointer;
+      
+    
+    
+      }
+        
+        }
+        
+    
+    
+
+
+
+
+        .top_5{
+
+          position: absolute;
+          top: 380vh;
+          bottom: 0%;
+          width: 100%;
+          height: 25vh;
+          background-color: #292b2c;
+          display: flex;
+         align-items: center;
+         cursor: pointer;
+        
+  
+  
+        }
+
+
+
+        @media screen and (max-width: 1199px) {
+
+   
+          .top_5{
+
+            position: absolute;
+            top:420vh;
+            bottom: 0%;
+            width: 100%;
+            height: 25vh;
+            background-color: #292b2c;
+            display: flex;
+           align-items: center;
+           cursor: pointer;
+          
+    
+    
+          }
+  
+            
+            }
+
+
+
+            @media screen and (max-width:991px) {
+
+   
+              .top_5{
+    
+                position: absolute;
+                top:460vh;
+                bottom: 0%;
+                width: 100%;
+                height: 25vh;
+                background-color: #292b2c;
+                display: flex;
+               align-items: center;
+               cursor: pointer;
+              
+        
+        
+              }
+      
+                
+                }
+
+
+                @media screen and (max-width:768px) {
+
+   
+                  .top_5{
+        
+                    position: absolute;
+                    top:480vh;
+                    bottom: 0%;
+                    width: 100%;
+                    height: 25vh;
+                    background-color: #292b2c;
+                    display: flex;
+                   align-items: center;
+                   cursor: pointer;
+                  
+            
+            
+                  }
+          
+                    
+                    }
+                    
+
+                    
+                @media screen and (max-width:478px) {
+
+   
+                  .top_5{
+        
+                    position: absolute;
+                    top:510vh;
+                    bottom: 0%;
+                    width: 100%;
+                    height: 25vh;
+                    background-color: #292b2c;
+                    display: flex;
+                   align-items: center;
+                   cursor: pointer;
+                  
+            
+            
+                  }
+          
+                    
+                    }
+
+
+                    @media screen and (max-width:420px) {
+
+   
+                      .top_5{
+            
+                        position: absolute;
+                        top:540vh;
+                        bottom: 0%;
+                        width: 100%;
+                        height: 25vh;
+                        background-color: #292b2c;
+                        display: flex;
+                       align-items: center;
+                       cursor: pointer;
+                      
+                
+                
+                      }
+              
+                        
+                        }
+
+                        @media screen and (max-width:382px) {
+
+   
+                          .top_5{
+                
+                            position: absolute;
+                            top:570vh;
+                            bottom: 0%;
+                            width: 100%;
+                            height: 25vh;
+                            background-color: #292b2c;
+                            display: flex;
+                           align-items: center;
+                           cursor: pointer;
+                          
+                    
+                    
+                          }
+                  
+                            
+                            }
+                    
+                
+            
+
+
+
+                            
+        .top_10{
+
+          position: absolute;
+          top: 770vh;
+          bottom: 0%;
+          width: 100%;
+          height: 25vh;
+          background-color: #292b2c;
+          display: flex;
+         align-items: center;
+         cursor: pointer;
+        
+  
+  
+        }
+
+
+        
+        @media screen and (max-width:991px) {
+
+   
+   
+                            
+          .top_10{
+
+            position: absolute;
+            top: 830vh;
+            bottom: 0%;
+            width: 100%;
+            height: 25vh;
+            background-color: #292b2c;
+            display: flex;
+           align-items: center;
+           cursor: pointer;
+          
+    
+    
+          }
+  
+            
+            }
+
+
+            @media screen and (max-width:768px) {
+
+   
+   
+                            
+              .top_10{
+    
+                position: absolute;
+                top: 930vh;
+                bottom: 0%;
+                width: 100%;
+                height: 25vh;
+                background-color: #292b2c;
+                display: flex;
+               align-items: center;
+               cursor: pointer;
+              
+        
+        
+              }
+      
+                
+                }
+
+
+
+                
+            @media screen and (max-width:520px) {
+
+   
+   
+                            
+              .top_10{
+    
+                position: absolute;
+                top: 970vh;
+                bottom: 0%;
+                width: 100%;
+                height: 25vh;
+                background-color: #292b2c;
+                display: flex;
+               align-items: center;
+               cursor: pointer;
+              
+        
+        
+              }
+      
+                
+                }
+
+
+
+                @media screen and (max-width:465px) {
+
+   
+   
+                            
+                  .top_10{
+        
+                    position: absolute;
+                    top: 1020vh;
+                    bottom: 0%;
+                    width: 100%;
+                    height: 25vh;
+                    background-color: #292b2c;
+                    display: flex;
+                   align-items: center;
+                   cursor: pointer;
+                  
+            
+            
+                  }
+          
+                    
+                    }
+
+
+                    @media screen and (max-width:411px) {
+
+   
+   
+                            
+                      .top_10{
+            
+                        position: absolute;
+                        top: 1060vh;
+                        bottom: 0%;
+                        width: 100%;
+                        height: 25vh;
+                        background-color: #292b2c;
+                        display: flex;
+                       align-items: center;
+                       cursor: pointer;
+                      
+                
+                
+                      }
+              
+                        
+                        }
+
+
+
+
+                        @media screen and (max-width:385px) {
+
+   
+   
+                            
+                          .top_10{
+                
+                            position: absolute;
+                            top: 1100vh;
+                            bottom: 0%;
+                            width: 100%;
+                            height: 25vh;
+                            background-color: #292b2c;
+                            display: flex;
+                           align-items: center;
+                           cursor: pointer;
+                          
+                    
+                    
+                          }
+                  
+                            
+                            }
+
+
+
+                            
+                        @media screen and (max-width:355px) {
+
+   
+   
+                            
+                          .top_10{
+                
+                            position: absolute;
+                            top: 1130vh;
+                            bottom: 0%;
+                            width: 100%;
+                            height: 25vh;
+                            background-color: #292b2c;
+                            display: flex;
+                           align-items: center;
+                           cursor: pointer;
+                          
+                    
+                    
+                          }
+                  
+                            
+                            }
+            
+        
+    
+    
+
+
+
+                            
+.home_div{
+
+  position: absolute;
+top: 310vh;
+  bottom: 0%;
+  width: 100%;
+  height: 25vh;
+  background-color: #292b2c;
+  display: flex;
+ align-items: center;
+ cursor: pointer;
+
+}
+
+
+
+       
+@media screen and (max-width:768px) {
+  .home_div{
+
+    position: absolute;
+  top: 370vh;
+    bottom: 0%;
+    width: 100%;
+    height: 25vh;
+    background-color: #292b2c;
+    display: flex;
+   align-items: center;
+   cursor: pointer;
+  
+  }
+
+   
+   
+ 
+
+    
+    }
+
+
+
+    @media screen and (max-width:525px) {
+      .home_div{
+    
+        position: absolute;
+      top: 370vh;
+        bottom: 0%;
+        width: 100%;
+        height: 25vh;
+        background-color: #292b2c;
+        display: flex;
+       align-items: center;
+       cursor: pointer;
+      
+      }
+    
+       
+       
+     
+    
+        
+        }
+
+
+
+        @media screen and (max-width:444px) {
+          .home_div{
+        
+            position: absolute;
+          top: 390vh;
+            bottom: 0%;
+            width: 100%;
+            height: 25vh;
+            background-color: #292b2c;
+            display: flex;
+           align-items: center;
+           cursor: pointer;
+          
+          }
+        
+           
+           
+         
+        
+            
+            }
+
+
+
+            
+        @media screen and (max-width:372px) {
+          .home_div{
+        
+            position: absolute;
+          top: 410vh;
+            bottom: 0%;
+            width: 100%;
+            height: 25vh;
+            background-color: #292b2c;
+            display: flex;
+           align-items: center;
+           cursor: pointer;
+          
+          }
+        
+           
+           
+         
+        
+            
+            }
+        
+        
+    
+    
+
+
+
+

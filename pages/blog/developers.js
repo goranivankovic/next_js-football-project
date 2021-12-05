@@ -58,7 +58,7 @@ We have language bindings in C, Java, Javascript, NodeJs, Php, PowerShell, Pytho
                         <br></br>
                         <span className="h6">Exemple GET a single player by ranking</span><br></br><br></br>
 
-                        <div className="h6">Exemple URL: <span className="text-primary"> http://localhost:3000/api/players/p1</span></div><br></br><br></br>
+                        <div className="h6">Exemple URL: <span className="text-primary"> https://next-js-football-project.vercel.app/api/players/p1</span></div><br></br><br></br>
                         <span className="h6">Exemple gets number 1 ranking</span><br></br><br></br>
                         <span className="h6">Range between 1 - 10</span>
 
@@ -121,7 +121,7 @@ We have language bindings in C, Java, Javascript, NodeJs, Php, PowerShell, Pytho
                         <br></br>
                         <span className="h6">Exemple GET top 5 players</span><br></br><br></br>
 
-                        <div className="h6">Exemple URL: <span className="text-primary">http://localhost:3000/api/players/top5</span></div><br></br><br></br>
+                        <div className="h6">Exemple URL: <span className="text-primary"> https://next-js-football-project.vercel.app/api/players/top5</span></div><br></br><br></br>
                        
                     
                     </Col>
@@ -162,7 +162,7 @@ We have language bindings in C, Java, Javascript, NodeJs, Php, PowerShell, Pytho
                         <br></br>
                         <span className="h6">Exemple GET top 10 players</span><br></br><br></br>
 
-                        <div className="h6">Exemple URL: <span className="text-primary">http://localhost:3000/api/players/top10</span></div><br></br><br></br>
+                        <div className="h6">Exemple URL: <span className="text-primary"> https://next-js-football-project.vercel.app/api/players/top10</span></div><br></br><br></br>
                        
                     
                     </Col>

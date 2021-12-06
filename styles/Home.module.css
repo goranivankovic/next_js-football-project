@@ -51,13 +51,18 @@
     width: 75%;
 
 
-    font-family: 'Baloo Bhaijaan 2', cursive;
-
-
- 
    
 
 }
+
+.home_main  img{
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 14px;
+ 
+
+}
+
+
 
 .home_second{
     
@@ -179,6 +184,10 @@
 }
 
 
+
+
+
+
 .home_second{
     
     position: absolute;
@@ -207,8 +216,9 @@
     position: absolute;
     top: 260vh;
     left: 0%;
-    height: 100vh;
+    height: 60vh;
     width: 100%;
+    overflow: scroll;
 
 
     font-family: 'Oswald', sans-serif;

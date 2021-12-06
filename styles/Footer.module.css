@@ -492,7 +492,7 @@
 .home_div{
 
   position: absolute;
-top: 310vh;
+top: 295vh;
   bottom: 0%;
   width: 100%;
   height: 25vh;
@@ -506,11 +506,34 @@ top: 310vh;
 
 
        
+@media screen and (max-width:835px) {
+  .home_div{
+
+    position: absolute;
+  top: 310vh;
+    bottom: 0%;
+    width: 100%;
+    height: 25vh;
+    background-color: #292b2c;
+    display: flex;
+   align-items: center;
+   cursor: pointer;
+  
+  }
+
+   
+   
+ 
+
+    
+    }
+
+           
 @media screen and (max-width:768px) {
   .home_div{
 
     position: absolute;
-  top: 370vh;
+  top: 330vh;
     bottom: 0%;
     width: 100%;
     height: 25vh;
@@ -530,11 +553,12 @@ top: 310vh;
 
 
 
+
     @media screen and (max-width:525px) {
       .home_div{
     
         position: absolute;
-      top: 370vh;
+      top: 330vh;
         bottom: 0%;
         width: 100%;
         height: 25vh;
@@ -553,7 +577,7 @@ top: 310vh;
         }
 
 
-
+/* 
         @media screen and (max-width:444px) {
           .home_div{
         
@@ -574,10 +598,10 @@ top: 310vh;
          
         
             
-            }
+            }  */
 
 
-
+/* 
             
         @media screen and (max-width:372px) {
           .home_div{
@@ -600,7 +624,7 @@ top: 310vh;
         
             
             }
-        
+         */
         
     
     

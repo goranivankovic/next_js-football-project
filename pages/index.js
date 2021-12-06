@@ -72,7 +72,7 @@ export default function Home(props) {
              
               src={slika}
               height="400"
-              width="800px"
+              width="700px"
               alt="image"
             
           

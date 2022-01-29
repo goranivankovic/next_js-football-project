@@ -54,7 +54,7 @@ We have language bindings in C, Java, Javascript, NodeJs, Php, PowerShell, Pytho
           
 
                     </Col>
-                    <Col style={{height:'30vh'}}  md={6} className="text-start">
+                    <Col style={{height:'40vh'}}  md={6} className="text-start">
                     <br></br>
                         
                       
@@ -117,7 +117,7 @@ We have language bindings in C, Java, Javascript, NodeJs, Php, PowerShell, Pytho
                         
                         
                         </Col>
-                    <Col style={{height:'30vh'}}  md={6} className="text-end">
+                    <Col style={{height:'40vh'}}  md={6} className="text-end">
                     <br></br>
                       
                       
@@ -158,7 +158,7 @@ We have language bindings in C, Java, Javascript, NodeJs, Php, PowerShell, Pytho
 
 
                   
-                    <Col style={{height:'30vh'}}  md={6} className="text-start">
+                    <Col style={{height:'40vh'}}  md={6} className="text-start">
                     <br></br>
                        
                       

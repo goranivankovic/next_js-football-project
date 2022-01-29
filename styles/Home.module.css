@@ -372,7 +372,7 @@
         
         }
         .home_image_div{
-            height: 45vh;
+            height: 50vh;
             width: 85%;
             display: flex;
             align-items: center;
@@ -485,6 +485,8 @@
             align-items: center;
             justify-content: space-around;
         }
+
+   
 
         .table_headline{
             width: 85%;

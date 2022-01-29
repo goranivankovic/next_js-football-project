@@ -7,6 +7,7 @@ import Link from 'next/link'
 
 
 import footerStyles from '../../styles/Footer.module.css'
+import Footer from '../../components/Footer';
 
 
 
@@ -30,14 +31,14 @@ import footerStyles from '../../styles/Footer.module.css'
   <br></br>
   <Col xs={12} className="h6"><span className="text-danger h3"></span> In 2021 : <span className="text-danger">{el.stats.goals}</span> goals  , <span className="text-danger">{el.stats.assists}</span> assists , Trophy won : <span className="text-danger">{el.stats.trophys}</span></Col>
   <br></br>
-  <br></br>
+
   <Col xs={12}  className="h6"> 
    Team : {el.club.team} , Country :  {el.club.country}
 
     
     </Col>
     <br></br>
-    <br></br>
+    
 
     <Col xs={12}  className="h6"> 
     Points in voting : <span className="text-danger">{el.points}</span>
@@ -47,7 +48,7 @@ import footerStyles from '../../styles/Footer.module.css'
 
 
     <br></br>
-    <br></br>
+   
 
        
   <Col xs={12}  className="h6"> 
@@ -56,7 +57,7 @@ import footerStyles from '../../styles/Footer.module.css'
     
     </Col>
     <hr></hr>
-    <br></br>
+    
 
     <Col xs={12}> 
 {el.message}
@@ -64,7 +65,7 @@ import footerStyles from '../../styles/Footer.module.css'
   
     </Col>
     <br></br>
-    <br></br>
+  
     <Col>
     <br></br>
     <Button href={el.website}>Web Site</Button>
@@ -72,7 +73,7 @@ import footerStyles from '../../styles/Footer.module.css'
     </Col>
     <Col xs={12}>
       <br></br>
-      <br></br>
+ 
     
     </Col>
  
@@ -88,26 +89,10 @@ import footerStyles from '../../styles/Footer.module.css'
 
 
           <br></br>
-          <br></br>
 
+          <Footer />
+      
 
-          <div className={footerStyles.top_5}>
-
- 
-<Container>
-     <Row>
-         <Col className="text-light text-center" xs={12}> <Link href="https://gogadesign.uk"><span style={{color:"white"}}>ALL RIGHTS RESERVED</span></Link> || <Link href="https://gogadesign.uk"><span style={{color:"white"}}> gogaDesign</span></Link>
-         
-         </Col>
-         <Col className="text-light text-center" xs={12}>
-                       <br></br>
-                       goranivankovic87@gmail.com
-                     
-                     </Col>
-     
-     </Row>
- </Container>
-</div>
 
 
 

@@ -9,6 +9,7 @@ import Link from 'next/link'
 
 
 import footerStyles from '../../styles/Footer.module.css'
+import Footer from '../../components/Footer';
 
 
 
@@ -33,14 +34,14 @@ function Top10(props) {
   <br></br>
   <Col xs={12} className="h6"><span className="text-danger h3"></span> In 2021 : <span className="text-danger">{el.stats.goals}</span> goals  , <span className="text-danger">{el.stats.assists}</span> assists , Trophy won : <span className="text-danger">{el.stats.trophys}</span></Col>
   <br></br>
-  <br></br>
+
   <Col xs={12}  className="h6"> 
    Team : {el.club.team} , Country :  {el.club.country}
 
     
     </Col>
     <br></br>
-    <br></br>
+
 
     <Col xs={12}  className="h6"> 
     Points in voting : <span className="text-danger">{el.points}</span>
@@ -50,7 +51,7 @@ function Top10(props) {
 
 
     <br></br>
-    <br></br>
+
 
        
   <Col xs={12}  className="h6"> 
@@ -59,7 +60,7 @@ function Top10(props) {
     
     </Col>
     <hr></hr>
-    <br></br>
+
 
     <Col xs={12}> 
 {el.message}
@@ -67,7 +68,7 @@ function Top10(props) {
   
     </Col>
     <br></br>
-    <br></br>
+
     <Col>
     <br></br>
     <Button href={el.website}>Web Site</Button>
@@ -75,7 +76,7 @@ function Top10(props) {
     </Col>
     <Col xs={12}>
       <br></br>
-      <br></br>
+   
     
     </Col>
  
@@ -83,34 +84,11 @@ function Top10(props) {
 </Row>
 </Container>
 
-
-  
-           
-           
           )}
 
-         
-          <div className={footerStyles.top_10}>
+          <br></br>
 
- 
-<Container>
-     <Row>
-         <Col className="text-light text-center" xs={12}> <Link href="https://gogadesign.uk"><span style={{color:"white"}}>ALL RIGHTS RESERVED</span></Link> || <Link href="https://gogadesign.uk"><span style={{color:"white"}}> gogaDesign</span></Link>
-         
-         </Col>
-         <Col className="text-light text-center" xs={12}>
-                       <br></br>
-                       goranivankovic87@gmail.com
-                     
-                     </Col>
-     
-     </Row>
- </Container>
-</div>
-  
-          
-           
-          
+          <Footer/>
 
 
             

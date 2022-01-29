@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Navbar,NavDropdown,Button,Container,Offcanvas,Nav,Form,FormControl,FormGroup } from 'react-bootstrap'
 import Link from 'next/link'
 import router from 'next/router'
+import navStyle from '../styles/Nav.module.css'
 
 
 export default class Navic extends Component {
@@ -46,12 +47,12 @@ export default class Navic extends Component {
     render() {
  
         return (
-            <div>
+            <div className={navStyle.nav}>
 
 
 <Navbar bg="dark" variant="dark" expand={false}>
   <Container fluid>
- <Navbar.Brand><Link href="/"><span style={{color:"white",cursor:"pointer"}}> Next js Blog</span></Link></Navbar.Brand>
+ <Navbar.Brand><Link href="/"><span style={{color:"white",cursor:"pointer",fontSize:"1.1em"}}> Next js Blog</span></Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"

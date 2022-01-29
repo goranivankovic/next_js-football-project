@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    height: 130vh;
+    width: 100%;
+    flex-direction: column;
+ justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .main{
+        display: flex;
+        height: 140vh;
+        width: 100%;
+        flex-direction: column;
+     justify-content: space-between;
+    }
+
+}
+
+
+@media only screen and (max-width: 527px) {
+    .main{
+        display: flex;
+        height: 150vh;
+        width: 100%;
+        flex-direction: column;
+     justify-content: space-between;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main{
+        display: flex;
+        height: 160vh;
+        width: 100%;
+        flex-direction: column;
+     justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .main{
+        display: flex;
+        height: 170vh;
+        width: 100%;
+        flex-direction: column;
+     justify-content: space-between;
+    }
+
+}

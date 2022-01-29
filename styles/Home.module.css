@@ -3,76 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:ital,wght@1,100&family=Roboto+Mono:wght@100&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@430&display=swap');
 .home{
-    height: 320vh;
+    height: 305vh;
     width: 100%;
     box-sizing: border-box;
-    position: absolute;
-    top: 0%;
-    left: 0%;
- 
-
-
-}
-
-
-
-
-
-.stickyLeft{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 320vh;
-    width: 12.5%;
-    /* background-color: rgb(248, 248, 248); */
-    z-index: -1;
-    
-}
-.stickyRight{
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    height: 320vh;
-    width: 12.5%;
-    /* background-color: rgb(248, 248, 248); */
-    z-index: -1;
-  
-}
-
-
-
-
-.home_main{
-    
-    position: absolute;
-    top: 3.2%;
-    left: 12.5%;
-    height: 100vh;
-    width: 75%;
-
-
-   
-
-}
-
-.home_main  img{
-    border-bottom-left-radius: 14px;
-    border-top-right-radius: 14px;
- 
-
-}
-
-
-
-.home_second{
-    
-    position: absolute;
-    top: 120vh;
-    left: 12.5%;
-    height: 100vh;
-    width: 75%;
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Oswald', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -80,167 +17,568 @@
     cursor: pointer;
 
 
-
  
-   
+
 
 }
 
-
-.home_three{
-    
-    position: absolute;
-    top: 210vh;
-    left: 12.5%;
-    height: 100vh;
-    width: 75%;
-
-
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-    cursor: pointer;
-
-
-
- 
-   
-
-}
-
-
-@media screen and (max-width:830px) {
-
-    
-.home_three{
-    
-    position: absolute;
-    top: 230vh;
-    left: 0%;
-    height: 100vh;
+.home_headline{
+    height: 15vh;
     width: 100%;
-
-
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-    cursor: pointer;
-
-
-
- 
-   
-
-}
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: firebrick;
+    font-weight: bolder;
 
 
 
 }
-
-
-
-@media screen and (max-width:768px) {
-    .stickyRight{
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        height: 320vh;
-        width: 0%;
-        background-color: rgb(248, 248, 248);
-        z-index: -1;
-      
-    }
-
-
-    .stickyLeft{
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        height: 320vh;
-        width: 0%;
-        background-color: rgb(248, 248, 248);
-        z-index: -1;
-        
-    }
-
-    
-.home_main{
-    
-    position: absolute;
-    top: 3.2%;
-    left: 0%;
-    height: 120vh;
-    width: 100%;
-
-
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-    cursor: pointer;
-}
-
-
-
-
-
-
-.home_second{
-    
-    position: absolute;
-    top: 140vh;
-    left: 0%;
-    height: 100vh;
-    width:100%;
-
-
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-    cursor: pointer;
-
-
-
- 
-   
-
-}
-
-
-.home_three{
-    
-    position: absolute;
-    top: 260vh;
-    left: 0%;
+.home_image_div{
     height: 60vh;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ 
+}
+
+
+
+.first_text_WH{
+    height: 35vh;
     width: 100%;
-    overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
 
 
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-    cursor: pointer;
+.first_text{
+    height: 30vh;
+    width: 70%;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.home_table{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.table_headline{
+    width: 70%;
+    height: 10vh;
+
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: firebrick;
+    font-weight: bolder;
+}
+
+.home_table .table_WH{
+    height: 50vh;
+    width: 70%;
+    font-size: .9em;
+
+}
+
+.table_bootom_text{
+    width: 70%;
+    height: 20vh;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    font-weight: bolder;
 
  
-   
+ 
+}
+
+
+
+.second_text{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.second_text_headline{
+    height: 15vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4em;
+    color: firebrick;
+    font-weight: bolder;
+
 
 }
+
+.second_text_main{
+
+    height: 35vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1em;
+  
+
+
+}
+
+
+
+
+
+
+
+    @media only screen and (max-width: 1002px) {
+
+        .first_text{
+            height: 35vh;
+            width: 70%;
+ 
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .table_headline{
+            width: 70%;
+            height: 15vh;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: firebrick;
+            font-weight: bolder;
+        }
+
+        
+        
+.second_text{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.second_text_headline{
+    height: 15vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3em;
+    color: firebrick;
+    font-weight: bolder;
+
+
+}
+
+.second_text_main{
+
+    height: 45vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .9em;
+  
+
+
+}
+
+
+
+
+
+
+    }
 
     
+    @media only screen and (max-width: 843px) {
+        .home_table .table_WH{
+            height: 50vh;
+            width: 70%;
+            font-size: .8em;
+        
+        }
+        
 
 
+    }
+
+    
+   
+
+
+
+    @media only screen and (max-width: 777px) {
+        
+
+
+        .home_headline{
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1em;
+            color: firebrick;
+            font-weight: bolder;
+        
+        
+        
+        }
+
+        .home_image_div{
+            height: 55vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+         
+        }
+
+        .first_text{
+            height: 35vh;
+            width: 80%;
+            font-size: .9em;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .home_table .table_WH{
+            height: 50vh;
+            width: 80%;
+
+            font-size: .7em;
+        
+        }
+        .table_headline{
+            width: 80%;
+            height: 15vh;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: firebrick;
+            font-weight: bolder;
+        }
+
+        .table_bootom_text{
+            width: 80%;
+            height: 15vh;
+            font-size: 1.1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        
+            font-weight: bolder;
+        
+         
+         
+        }
+
+
+               
+.second_text{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.second_text_headline{
+    height: 15vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1em;
+    color: firebrick;
+    font-weight: bolder;
+
+
+}
+
+.second_text_main{
+
+    height: 45vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .8em;
+  
 
 
 }
 
 
+
+
+
+
+
+        
+        
+
+
+
+    
+      }
+
+
+
+      
+    @media only screen and (max-width: 567px) {
+        .home_headline{
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .9em;
+            color: firebrick;
+            font-weight: bolder;
+        
+        
+        
+        }
+        .home_image_div{
+            height: 55vh;
+            width: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+         
+        }
+
+        
+        .first_text{
+            height: 35vh;
+            width: 85%;
+            font-size: .8em;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .home_table .table_WH{
+            height: 50vh;
+            width: 85%;
+            font-size: .6em;
+        
+        }
+
+        .table_bootom_text{
+            width: 85%;
+            height: 15vh;
+            font-size: .8em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        
+            font-weight: bolder;
+        
+         
+         
+        }
+
+
+        
+               
+.second_text{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.second_text_headline{
+    height: 10vh;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .9em;
+    color: firebrick;
+    font-weight: bolder;
+
+
+}
+
+.second_text_main{
+
+    height: 40vh;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .7em;
+  
+
+
+}
+
+
+
+
+
+
+    
+      }
+
+      
+   
+
+
+      @media only screen and (max-width: 465px) {
+        .home_headline{
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .8em;
+            color: firebrick;
+            font-weight: bolder;
+        
+        
+        
+        }
+
+        .first_text{
+            height: 35vh;
+            width: 85%;
+            font-size: .7em;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .table_headline{
+            width: 85%;
+            height: 10vh;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: firebrick;
+            font-weight: bolder;
+        }
+        .home_table .table_WH{
+            height: 50vh;
+            width: 90%;
+            font-size: .6em;
+        
+        }
+
+        .table_bootom_text{
+            width: 85%;
+            height: 15vh;
+            font-size: .8em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        
+            font-weight: bolder;
+        
+         
+         
+        }
+
+        .second_text_main{
+
+            height: 40vh;
+            width: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: .65em;
+          
+        
+        
+        }
+        
+        
+   
+
+    
+      }
+
+
+
+
+      @media only screen and (max-width: 413px) {
+        .home_headline{
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .65em;
+            color: firebrick;
+            font-weight: bolder;
+        
+        
+        
+        }
+
+
+        .table_headline{
+            width: 85%;
+            height: 10vh;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: firebrick;
+            font-weight: bolder;
+        }
+
+        .home_table .table_WH{
+            height:50vh;
+            width: 90%;
+            font-size: .45em;
+
+        
+        }
+        
+        
+
+
+    
+      }
 
 

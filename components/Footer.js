@@ -15,11 +15,7 @@ export default class Footer extends Component {
                      <Col className="text-light text-center" xs={12}> <Link href="https://gogadesign.uk"><span style={{color:"white"}}>ALL RIGHTS RESERVED</span></Link> || <Link href="https://gogadesign.uk"><span style={{color:"white"}}> gogaDesign</span></Link>
                      
                      </Col>
-                     <Col className="text-light text-center" xs={12}>
-                       <br></br>
-                       goranivankovic87@gmail.com
-                     
-                     </Col>
+                 
                  
                  </Row>
              </Container>

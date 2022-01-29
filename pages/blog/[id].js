@@ -4,6 +4,8 @@ import Flag from 'react-world-flags'
 import Link from 'next/link'
 import Navic from '../../components/Navic';
 import Footer from '../../components/Footer'
+import idStyle from '../../styles/Id.module.css'
+
 
 
 export default function Post(props) {
@@ -11,9 +13,9 @@ export default function Post(props) {
 
 
     return (
-        <div>
+        <div className={idStyle.main}>
           <Navic />
-    <br></br>
+           
             <Container> 
               <Row>
                 <Col xs={12}># <span className="text-primary h5">{props.data.id}</span> </Col>
@@ -22,14 +24,14 @@ export default function Post(props) {
                 <br></br>
                 <Col xs={12} className="h6"><span className="text-danger h3"></span> In 2021 : <span className="text-danger">{props.data.stats.goals}</span> goals  , <span className="text-danger">{props.data.stats.assists}</span> assists , Trophy won : <span className="text-danger">{props.data.stats.trophys}</span></Col>
                 <br></br>
-                <br></br>
+                
                 <Col xs={12}  className="h6"> 
                  Team : {props.data.club.team} , Country :  {props.data.club.country}
           
                   
                   </Col>
-                  <br></br>
-                  <br></br>
+           
+                
 
                   <Col xs={12}  className="h6"> 
                   Points in voting : <span className="text-danger">{props.data.points}</span>
@@ -38,8 +40,8 @@ export default function Post(props) {
                   </Col>
 
 
-                  <br></br>
-                  <br></br>
+              
+              
 
                      
                 <Col xs={12}  className="h6"> 
@@ -48,7 +50,7 @@ export default function Post(props) {
                   
                   </Col>
                   <hr></hr>
-                  <br></br>
+               
 
                   <Col xs={12}> 
               {props.data.message}
@@ -56,7 +58,7 @@ export default function Post(props) {
                 
                   </Col>
                   <br></br>
-                  <br></br>
+                  
                   <Col>
                   <br></br>
                   <Button href={props.data.website}>Web Site</Button>
@@ -65,23 +67,8 @@ export default function Post(props) {
              
               </Row>
               </Container>
-
-              
               <br></br>
-                  <br></br>
-
-                  <Container>
-                    <Row>
-                      <Col>
-                      <br></br>
-                  <br></br>
-                      
-                      </Col>
-                    </Row>
-                  </Container>
-
-
-                  <br></br>
+         
 
                   <Footer />
                  

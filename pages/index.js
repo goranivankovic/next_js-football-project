@@ -139,7 +139,7 @@ Messi won the last Ballon dOr award presented in 2019. The 2020 edition was canc
 
 
 <div className={homeStyle.table_bootom_text}>
-    <marquee  width="100%" direction="up"   direction="left"  loop="1">
+    <marquee  width="100%"   direction="left"  loop="1">
     The Argentine wizard - as predicted by GOAL - won his seventh Golden Ball on November 29, beating the Bayern Munich star into second place
 </marquee>
 </div>

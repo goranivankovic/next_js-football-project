@@ -2,8 +2,8 @@ import {Container,Row,Col,Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Flag from 'react-world-flags'
 import Link from 'next/link'
-import Navic from '../../components/Navic';
-import Footer from '../../components/Footer'
+import Navic from '../../components/Nav/Navic';
+import Footer from '../../components/Footer/Footer'
 import idStyle from '../../styles/Id.module.css'
 
 

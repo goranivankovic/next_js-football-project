@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Navbar,NavDropdown,Button,Container,Row,Col } from 'react-bootstrap'
 import Link from 'next/link'
-import footerStyles from '../styles/Footer.module.css'
+import footerStyles from '../../styles/Footer.module.css'
 
 
 

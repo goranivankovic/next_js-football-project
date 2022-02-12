@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Navbar,NavDropdown,Button,Container,Offcanvas,Nav,Form,FormControl,FormGroup } from 'react-bootstrap'
 import Link from 'next/link'
 import router from 'next/router'
-import navStyle from '../styles/Nav.module.css'
+import navStyle from '../../styles/Nav.module.css'
 
 
 export default class Navic extends Component {

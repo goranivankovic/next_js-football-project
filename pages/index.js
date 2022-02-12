@@ -8,7 +8,7 @@ import {Container,Row,Col,Table } from 'react-bootstrap'
 
 
 
-import NavicBre from '../components/Navic';
+import NavicBre from '../components/Nav/Navic';
 
 
 import homeStyle from '../styles/Home.module.css'
@@ -19,7 +19,7 @@ import slika from '../images/messi2.jpg'
 import footerStyles from '../styles/Footer.module.css'
 
 import Link from 'next/link'
-import Footer from '../components/Footer';
+import Footer from '../components/Footer/Footer';
 
 
 

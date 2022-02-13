@@ -13,7 +13,7 @@ import NavicBre from '../components/Nav/Navic';
 
 import homeStyle from '../styles/Home.module.css'
 
-import slika from '../images/messi2.jpg'
+import slika from '../images/messi.jpg'
 
 
 import footerStyles from '../styles/Footer.module.css'
@@ -66,6 +66,8 @@ export default function Home(props) {
               alt='messi'
               layout='fill'
               objectFit="fill"
+
+            
 
           
           

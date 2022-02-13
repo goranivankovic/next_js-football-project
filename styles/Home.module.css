@@ -38,11 +38,12 @@
 }
 .home_image_div{
     height: 50vh;
-    width: 55%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+  
  
 }
 
@@ -262,7 +263,7 @@
 
         .home_image_div{
             height: 50vh;
-            width: 80%;
+            width: 70%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -381,7 +382,7 @@
         }
         .home_image_div{
             height: 50vh;
-            width: 85%;
+            width: 80%;
             display: flex;
             align-items: center;
             justify-content: center;

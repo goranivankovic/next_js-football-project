@@ -44,7 +44,7 @@
 @media only screen and (max-width: 400px) {
     .main{
         display: flex;
-        height: 170vh;
+        height: 175vh;
         width: 100%;
         flex-direction: column;
      justify-content: space-between;
